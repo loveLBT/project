@@ -1,0 +1,8 @@
+ <!--pages/welcome/welcome.wxml-->
+<view class='container'>
+  <image class='user-avatar' src='/images/avatar.jpg'></image>
+  <text class='user-name'>Hello Word</text>
+  <view bindtap='onTab' class='moto-container'>
+    <text class='moto'>开启你的小程序</text>
+  </view>
+</view>

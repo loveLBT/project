@@ -1,0 +1,20 @@
+.leftbar{
+	width: 220px;
+	position: fixed;
+	top: 50px;
+	bottom: 0;
+	right: -220px;
+	background: rgba(69, 78, 89, .9);
+	padding:20px 10px;
+	color: #acb5bf;
+}
+.leftbar .leftbar_form{
+
+}
+.leftbar .leftbar_title{
+	font-size: 24px;
+	color: #fff;
+}
+.leftbar .leftbar_form .form_item_label{
+	color: #acb5bf;
+}

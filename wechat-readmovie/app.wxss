@@ -1,0 +1,9 @@
+/**app.wxss**/
+page{
+  height: 100%;
+  width: 100%;
+}
+text{
+  font-family: MicroSoft Yahei;
+}
+

@@ -1,0 +1,50 @@
+.sider{
+	background:transparent;
+}
+.sider .ant-menu,
+.sider .ant-menu a{
+	background: transparent;
+	color: rgba(255,255,255,.8); 
+}
+
+.sider .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, 
+.sider .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, 
+.sider .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, 
+.sider .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:before, 
+.sider .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, 
+.sider .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, 
+.sider .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow:after, 
+.sider .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow:after{
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,.8)), to(rgba(255,255,255,.8)));
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,.8), rgba(255,255,255,.8));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,.8), rgba(255,255,255,.8));
+    background-image: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.8));
+} 
+.sider .ant-menu-item:active,
+.sider .ant-menu-submenu-title:active {
+  background-color:rgba(0,0,0,.2);
+}
+.sider .ant-menu-item:hover,
+.sider .ant-menu-item-active,
+.sider .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.sider .ant-menu-submenu-active,
+.sider .ant-menu-submenu-title:hover,
+.sider .ant-menu-item-selected {
+  color: rgba(225,225,225,.6);
+} 
+
+.sider .ant-menu-item > a:hover,
+.sider .ant-menu-item-selected > a, 
+.sider .ant-menu-item-selected > a:hover{
+  color: rgba(225,225,225,.6);
+}
+
+.sider .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color:rgba(0,0,0,.2);
+}
+.sider .ant-menu-vertical .ant-menu-item:after, 
+.sider .ant-menu-vertical-left .ant-menu-item:after, 
+.sider .ant-menu-vertical-right .ant-menu-item:after, 
+.sider .ant-menu-inline .ant-menu-item:after{
+	border-right: 3px solid rgba(0,0,0,.2);
+}

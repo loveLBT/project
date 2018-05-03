@@ -1,0 +1,19 @@
+<template name="article">
+  <view class="article">
+    <view class="article-user">
+      <image class="article-user-avatar" src="{{avatar}}" />
+      <text class="article-user-name">{{userName}}</text>
+    </view>
+
+    <text class="article-content-title">{{articleTitle}}</text>
+    <image class="article-content-img" src="{{articleImg}}" />
+    <text class="article-content-text">{{articleText}}</text>
+
+    <view class="article-action">
+      <image class="article-action-icon" src="/images/avatar.jpg" />
+      <text class="article-action-text">{{thumbsUpNum}}</text>
+      <image class="article-action-icon" src="/images/avatar.jpg" />
+      <text class="article-action-text">{{commentNum}}</text>
+    </view>
+  </view>
+</template>

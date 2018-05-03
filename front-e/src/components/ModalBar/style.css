@@ -1,0 +1,24 @@
+.modal .ant-form-item{
+	margin-bottom: 0px;
+}
+.modal .ant-form label{
+	font-size: 12px;
+}
+.modal .ant-select{
+	font-size: 12px;
+}
+.modal .ant-input{
+	font-size: 12px
+}
+.modal .ant-row{
+	padding: 2px 0;
+}
+.modal .ant-modal-body{
+	font-size: 12px;
+}
+.modal a{
+	color: #1890ff;
+}
+.modal a:hover{
+	color: #096dd9;
+}

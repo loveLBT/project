@@ -1,0 +1,21 @@
+<!--pages/posts/detail/detail.wxml-->
+<view class="container">
+  <image class="article-img" src="{{articleImg}}" />
+  <image bindtap="onMusicPlay" class="article-music-play" src="{{musicPlayState?'/images/avatar.jpg':'/images/article.jpg'}}" />
+  <view class="article-user">
+    <image class="article-user-avatar" src="{{articleImg}}" />
+    <text class="article-user-name">{{articleUser}}</text>
+    <text class="article-time-label">发表于</text>
+    <text class="article-time">{{articleTime}}</text>
+  </view>
+  <text class="article-title">{{articleTitle}}</text>
+  <view class="article-action">
+    <view class="article-action-box">
+      <image wx:if="{{thumbsUpState}}" bindtap="onThumbsUp" class="article-action-btn" src="/images/avatar.jpg" />
+      <image wx:else bindtap="onThumbsUp" class="article-action-btn" src="/images/article.jpg" />
+      <image bindtap="onComment" class="article-action-btn" src="/images/avatar.jpg" />
+    </view>
+    <view class="article-action-line"></view>
+  </view>
+  <text class="article-text">{{articleText}}</text>
+</view>

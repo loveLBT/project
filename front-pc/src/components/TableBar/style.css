@@ -1,0 +1,130 @@
+.table .ant-table{
+  color:rgba(255,255,255,.8);
+}
+.table .ant-table-placeholder{
+  background: rgba(0,0,0,.2);
+  color: rgba(255,255,255,.8);
+}
+.table .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+  overflow-x: hidden;
+}
+.table .ant-table-header,
+.table .ant-table-thead > tr > th{
+  background: rgba(0,0,0,.2);
+}
+.table .ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body{
+  background:transparent;
+}
+.table .ant-table-thead > tr > th{
+  color: rgba(255,255,255,.8);
+}
+.table .ant-table-body{
+  margin-top: 17px;
+  overflow-x: scroll !important;
+}
+.table .ant-table-thead > tr > th, 
+.table .ant-table-tbody > tr > td{
+  white-space: nowrap;            
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 0px;
+}
+.table .ant-table-tbody > tr.ant-table-row-selected td,
+.table .ant-table-thead > tr.ant-table-row-hover > td,
+.table .ant-table-tbody > tr.ant-table-row-hover > td,
+.table .ant-table-thead > tr:hover > td,
+.table .ant-table-tbody > tr:hover > td {
+  background: rgba(0,0,0,.2);
+}
+.table .ant-pagination-item-active{
+  border-color: rgba(0,0,0,.3);
+}
+.table .ant-pagination-item{
+  background-color: rgba(0,0,0,.3);
+}
+.table .ant-pagination{
+  color: rgba(255,255,255,.8);
+}
+.table .ant-pagination-item a{
+  color: rgba(255,255,255,.8);
+}
+.table .ant-pagination-prev a, 
+.table .ant-pagination-next a{
+  color: rgba(255,255,255,.8);
+}
+.table .ant-pagination-jump-prev:after, 
+.table .ant-pagination-jump-next:after{
+  color: rgba(255,255,255,.8);
+}
+.table .ant-pagination-item:focus a,
+.table .ant-pagination-item:hover a,
+.table .ant-pagination-prev:hover a,
+.table .ant-pagination-next:hover a {
+  color: rgba(255,255,255,.6);
+}
+.table .ant-pagination-prev:focus .ant-pagination-item-link,
+.table .ant-pagination-next:focus .ant-pagination-item-link,
+.table .ant-pagination-prev:hover .ant-pagination-item-link,
+.table .ant-pagination-next:hover .ant-pagination-item-link {
+  color: rgba(255,255,255,.6)
+}
+
+/* size='small' 样式 */
+.ant-table-small > .ant-table-content .ant-table-header{
+  background: transparent;
+}
+.table .ant-table-small > .ant-table-content > .ant-table-header > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, 
+.table .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th{
+  background: transparent;
+}
+
+/* 排序图标 */
+.table .ant-table-column-sorter{
+  color: rgba(255,255,255,.8);
+}
+
+/* 表格底部 */
+.table .ant-table-footer{
+  background: transparent;
+}
+.table .ant-table-footer .box button{
+  margin-right: 10px;
+  font-size: 12px;
+}
+.table .ant-table-footer .box p{
+  color: rgba(255,255,255,.8);
+  margin-top: 16px;
+  font-size: 12px;
+}
+.table .ant-table-footer .box p span{
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 2px 0;
+}
+.table .purple{
+  background: rgba(139,23,199,.8);
+  opacity: .8;
+}
+.table .transparent{
+  background: transparent;
+}
+.table .yellow{
+  background-color: rgba(178,121,0,.8);
+  opacity: .8;
+}
+.table .blue{
+  background-color: rgba(45,115,175,.8);
+  opacity: .8;
+}
+.table .gray{
+  background: rgba(117,113,113,.8);
+  opacity: .8;
+}

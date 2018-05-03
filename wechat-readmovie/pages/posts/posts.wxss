@@ -1,0 +1,7 @@
+/* pages/posts/posts.wxss */
+@import "/templates/article/article.wxss";
+
+.slide-image {
+  width: 100%;
+  height: 500rpx;
+}

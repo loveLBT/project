@@ -1,0 +1,18 @@
+<!--pages/posts/posts.wxml-->
+<import src="/templates/article/article.wxml" />
+
+<view>
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:key wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <block wx:key="id" wx:for="{{articles}}">
+    <view bindtap="onPostTap" id="{{item.id}}">
+      <template is="article" data="{{...item,onTap}}" />
+    </view>
+  </block>
+</view>

@@ -1,0 +1,20 @@
+@import "../../style/base.less";
+
+.shadowBox{
+	background: #fff;
+	position: relative;
+	padding: 16px;
+	margin-bottom: 32px;
+	box-shadow:  0 2px 3px rgb(230,230,230);
+	.changeBtn{
+		@color: @baseColor;
+		.baseBtn;
+		margin-left: 20px;
+	}
+	.ant-table td,.ant-table th,.ant-table-thead th{
+		text-align: center;
+	}
+	.ant-table-pagination.ant-pagination{
+		margin-right: 16px;
+	}
+}

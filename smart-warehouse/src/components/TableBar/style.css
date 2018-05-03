@@ -1,0 +1,60 @@
+/*取消展开行图标*/
+.expanded_row .ant-table-expand-icon-th, 
+.expanded_row .ant-table-row-expand-icon-cell,
+.expanded_row .ant-table-row-expand-icon,
+.expanded_row .ant-table-expanded-row td:first-child{
+	display: none;
+}
+/* .table .ant-table-header,
+.table .ant-table-thead > tr > th{
+  background: #1DA57A;
+  color: #fff;
+} */
+.table .ant-table-expanded-row,
+.table .ant-table-expanded-row:hover,
+.table .ant-table-expanded-row td:hover{
+	background: #fff;
+}
+
+.table .doubleRowBgColor{
+	background: #f5f5f5;
+}
+.table .row td{
+	position: relative;
+}
+.table .row .td_img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	overflow: hidden;
+} 
+.table .row .td_img img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.table .row .action_column a{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #1DA57A;
+	margin-left: 5px;
+}
+.table .row .action_column a:first-child{
+	margin-left: 0;
+}
+.table .row .action_column a i{
+	color: #fff;
+}
+.table .row .action_column a.edit{
+	background-color: #1DA57A;
+}
+.table .row .action_column a.delete{
+	background-color: red;
+}

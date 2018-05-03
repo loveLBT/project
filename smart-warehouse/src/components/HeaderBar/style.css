@@ -1,0 +1,50 @@
+.header{
+	background-color: #5ccdde;
+	padding: 0;
+	height: 50px;
+}
+.header .trigger{
+	font-size: 20px;
+}
+.header .menu,
+.header .collapsed{
+	line-height: 50px;
+	background-color: #5ccdde;
+	border-bottom: 0;
+}
+.header .menu .menu_icon{
+	vertical-align: middle;
+	font-size: 24px;
+}
+.header .collapsed{
+	text-align: center;
+	color: #fff;
+}
+.header .menu .ant-menu-item-selected, 
+.header .menu.ant-menu-dark .ant-menu-item-selected,
+.header .coustom_menu .menu_item:hover,
+.header .coustom_menu .menu_item:focus,
+.header .collapsed:hover,
+.header .collapsed:focus{
+	background-color: rgb(0,0,0,.15);
+}
+.header .coustom_menu{
+	list-style: none;
+	box-sizing: border-box;
+	zoom: 1;
+	margin:0;
+	padding: 0;
+}
+.header .coustom_menu:after{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.header .coustom_menu .menu_item{
+	float: right;
+	font-size: 24px;
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0 10px;
+    transition: background .3s ease-out;
+}

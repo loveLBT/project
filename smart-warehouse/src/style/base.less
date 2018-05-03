@@ -1,0 +1,57 @@
+@baseColor:#5ccdde;
+@orange:#d48763;
+@green: #b8d96d;
+@blue:#6db0db;
+@red:#ec513f;
+
+.baseBtn{
+	@color:@baseColor;
+	background:@color;
+	border-color:@color;
+	color: #fff;
+	&:hover{
+		transition: 0.2s;
+		background:saturate(@color, 12%);
+		border-color:saturate(@color, 12%);
+	}
+}
+.red{
+	color: @red;
+}
+
+.subTit{
+	background: #fafcfd;
+	padding:8px;
+	font-size: 14px;
+	border-radius: 2px;
+	margin-bottom: 4px;
+	position: relative;
+	.exprots{
+		@color:@baseColor;
+		.baseBtn;
+		position: absolute;
+		top: 3px;
+		left: 120px;
+	}
+	.imports{
+		@color:@baseColor;
+		.baseBtn;
+		float: left;
+		margin-left: 20px;
+		margin-top: 3px;
+	}
+}
+
+.clearfix {
+  display: block;
+  zoom: 1;
+
+  &:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}

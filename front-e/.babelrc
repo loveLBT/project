@@ -1,0 +1,10 @@
+{
+	"presets": [
+	  "react-app",
+  	],
+	"plugins":[
+		"transform-decorators-legacy",
+  		"syntax-decorators",
+		["import",[{ "libraryName": "antd", "style": "css" }]],
+	]
+}

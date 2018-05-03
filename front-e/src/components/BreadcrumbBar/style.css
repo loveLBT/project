@@ -1,0 +1,10 @@
+.breadcrumb{
+	margin: 16px 0;
+	color: rgba(255,255,255,.8);
+}
+.breadcrumb > span:last-child{
+	color: #fff;
+}
+.breadcrumb .ant-breadcrumb-separator{
+	color: rgba(255,255,255,.8);
+}

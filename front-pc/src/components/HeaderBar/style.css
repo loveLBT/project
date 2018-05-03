@@ -1,0 +1,49 @@
+.header{
+	background:transparent;
+}
+.header a{
+  color: rgba(255,255,255,.8);
+}
+.header a:hover{
+  color: rgba(255,255,255,.6);
+}
+.header .title{
+  width: 320px;
+  height: 31px;
+  margin: 16px 28px 16px 0;
+  float: left;
+  line-height: 31px;
+}
+.header .title a{
+	font-size: 14px;
+  color: #abcdef;
+}
+.header .dropdown_box{
+  width: 360px;
+  height: 31px;
+  margin: 16px 28px 16px 0;
+  line-height: 31px;
+  float: right;
+  text-align: right;
+}
+
+.skin_menu{
+  width: 160px;
+  padding: 5px;
+  margin: 2px 0 0;
+  overflow: hidden;
+}
+.skin_menu .item{
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid #fff;
+  background-color: red;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "smart-warehouse",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.3.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "echarts": "^4.0.4",
+    "lodash": "^4.17.5",
+    "mobx": "^3.4.1",
+    "mobx-react": "^4.3.5",
+    "object-assign": "^4.1.1",
+    "rc-tween-one": "^1.7.3",
+    "react": "^16.2.0",
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewire-mobx": "^1.0.7",
+    "react-app-rewired": "^1.5.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.7"
+  },
+  "proxy": "http://192.168.1.105:8080/ToolRoomWeb"
+}

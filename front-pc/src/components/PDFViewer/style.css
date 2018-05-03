@@ -1,0 +1,25 @@
+.pdf{
+	width: 100%;
+	min-height: 100%;
+	color: rgba(255,255,255,.8);
+	background-color: #404040;
+}
+.pdf-header{
+	position: relative;
+	height: 32px;
+	background-color: #474747;
+	box-shadow: inset 0 1px 1px hsla(0,0%,0%,.15), inset 0 -1px 0 hsla(0,0%,100%,.05), 0 1px 0 hsla(0,0%,0%,.15), 0 1px 1px hsla(0,0%,0%,.1);
+}
+.pdf-content-view{
+	background-color: #fff;
+}
+.pdf-header-input-lbael{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pdf-content{
+	padding: 10px 0;
+}
+.pdf-content .PDFDocument{
+	
+}

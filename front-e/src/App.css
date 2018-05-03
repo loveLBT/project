@@ -1,0 +1,178 @@
+/* 全局样式 */
+html,body { width: 100%; height: 100%;}
+ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,p,img,input { margin:0; padding:0;}
+ul { list-style:none;}
+select, input, img { vertical-align: middle; outline: none; }
+img { border:0px;}
+a { text-decoration:none; cursor:pointer;}
+a:hover,a:focus { text-decoration:none;}
+a,h3,label{color: rgba(255,255,255,.8);}
+a:hover,a:focus,a:active{color: rgba(255,255,255,.6);}
+
+.clearfloat:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfloat {zoom:1;}
+
+/* 修改antd Dropdown组件样式 */
+.dd-menu .ant-dropdown-menu-item:hover a, 
+.dd-menu .ant-dropdown-menu-submenu-title:hover a{
+  color: rgba(0,0,0,.6);
+}
+.ant-form-item-label label,
+.ant-checkbox-wrapper{
+  color: rgba(255,255,255,.8);
+}
+
+/* 顶层容器 */
+#root{
+  height: 100%;
+  width: 100%;
+}
+.app{
+  height: 100%;
+  width: 100%;
+}
+/* 登录页 */
+.login{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.login:before{
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 276px;
+  height: 52px;
+  background-repeat: no-repeat;
+  background-size: cntain;
+}
+.login .form_box{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 380px;
+  height: auto;
+  margin-left: -190px;
+  overflow: hidden;
+  padding: 40px;
+  box-shadow: 0 -15px 30px rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+.login .form_box .title{
+  font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #a5d0fd;
+    text-shadow: 0 0 1px #65a4e5;
+    margin-bottom: 16px;
+}
+.login .form_box dd{
+  margin-bottom: 6px;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+}
+.login .form_box dd:before{
+  font-family:'adminthemesregular';
+  position:absolute;
+  top:0;
+  left:10px;
+  height:36px;
+  line-height:36px;
+  font-size:20px;
+  color:#238dd9;
+}
+.login .form_box dd input{
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  padding: 3px 5%;
+  width: 100%;
+  text-indent: 2em;
+  border: none;
+  color: #fff;
+  background: rgba(255,255,255,.3);
+}
+.login .form_box dd input::-webkit-input-placeholder{
+  color:#f4f4f4;
+  line-height:inherit;
+} 
+.login .form_box dd input:-moz-placeholder{
+  color:#f4f4f4;
+  line-height:inherit;
+} 
+.login .form_box dd input::-moz-placeholder{
+  color:#f4f4f4;
+  line-height:inherit;
+}
+.login .form_box dd input:focus{
+  background: rgba(255,255,255,.25);
+}
+.login .form_box dd.user:before{
+  content:"u";
+}
+.login .form_box dd.pwd:before{
+  content:"p";
+}
+.login .form_box dd.submit button{
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  font-size: 16px;
+  background: #3382cf;
+  color: #f8f8f8;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.login .form_box dd.submit button:active{
+  background: rgba(0,0,0,.1);
+}
+.login .form_box dd.submit button:disabled{
+  background: rgba(255,255,255,.25);
+}
+
+/* 首页*/
+.home{
+  width: 100%;
+  min-height: 100%;
+  position: relative; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+.home .ant-layout{
+  background: transparent;
+}
+.home .content{
+  margin: 0;
+}
+/* 集控站与用户变电所关系页*/
+.centralControl .ant-transfer-operation{
+  margin: 0;
+  padding: 0;
+  width: 16.6%;
+  text-align: center;
+}
+.centralControl .ant-transfer-operation button{
+  display: inline-block;
+}
+.centralControl .ant-transfer-list:first-child{
+  margin-left: 16.6%;
+}
+.centralControl .ant-transfer-list-header{
+  background-color: rgba(0,0,0,.4);
+  color: rgba(255,255,255,.8);
+}
+.centralControl .ant-transfer-list-body-not-found{
+  color: rgba(255,255,255,.8);
+}
+.centralControl .transfer .ant-checkbox-wrapper + span, .centralControl .transfer .ant-checkbox + span{
+  color: rgba(255,255,255,.8);
+}
+.centralControl .ant-transfer-list-content-item:not(.ant-transfer-list-content-item-disabled):hover{
+  background-color: rgba(0,0,0,.2);
+}
