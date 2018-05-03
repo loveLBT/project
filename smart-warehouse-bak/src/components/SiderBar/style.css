@@ -1,0 +1,26 @@
+.sider_brand{
+	background-color: #5ccdde;
+    overflow: hidden;
+}
+.sider_brand a{
+	height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    background-color: red;
+    transition: background .3s ease-out;
+    background-color: #5ccdde;
+}
+.sider_brand a:focus,
+.sider_brand a:hover{
+	background-color: rgba(0,0,0,.15);
+    text-decoration:none;
+}
+.sider_brand a i{
+    font-size: 24px;
+    margin-right: 20px;
+}
